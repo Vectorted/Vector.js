@@ -1,0 +1,16 @@
+{
+    "package-id": "app",
+    "runtime": "v8+java",
+    "library": "libs",
+
+    "java-main": {
+        "main": true,
+        "Class-Main": "com.Main"
+    },
+
+    "version": [
+        1,
+        0,
+        0
+    ]
+}
