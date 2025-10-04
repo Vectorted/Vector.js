@@ -92,7 +92,8 @@ console.log('exists: ', fs.exists());//true
  */
 
 import { $java } from '@vector-api';
-console.log($java.findClass('android.widget.Toast'));// (class android.widget.Toast)
+console.log($java.findClass('android.widget.Toast'));// (class android.widget.Toast) or throws ClassNotFoundError
+console.log($java.findClassOrNull('android.widget.Toast'));// (class android.widget.Toast) or null
 ```
 
 ### 继承Java类
