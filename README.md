@@ -1,7 +1,7 @@
 <br />
 
 <p align="center">
-    <img src="vector.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Vectorted/Vector.js/tree/master/vector.png" alt="Logo" width="80" height="80">
   </a>
 
   <br/>
