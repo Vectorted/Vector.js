@@ -20,7 +20,8 @@ Android Node.js Compiler
 
 @Vectorted
 
-&ensp; Email:3537099724@qq.com
+&ensp; Email-QQ: 3537099724@qq.com
+&ensp; Microsoft: xtyygdd123@outlook.com
 
 ### 规范开发目录说明
 Vector.js环境支持直接运行JavaScript/TypeScript | HTML, 并支持访问Jvm
@@ -170,9 +171,17 @@ const ExtendFile: Function = await $java.JavaAdapter(java.io.File, {
         //调用子类重写的方法
         //如果方法没有被重写,则直接调用父类方法
         return this.Adapter.exists();
-    },
+    }
 });
 const file: Function = new ExtendFile('./Class.ts');
 
 void file.invoke()
 ```
+### 使用到的Tool-Sdk
+
+- [android](https://github.com/Vectorted/Vector.js/tree/master/sdk-tools)
+- [rt-jdk8](https://github.com/Vectorted/Vector.js/tree/master/sdk-tools)
+- [ApkSigner](https://github.com/Vectorted/Vector.js/tree/master/sdk-tools)
+- [sdklib](https://github.com/Vectorted/Vector.js/tree/master/sdk-tools)
+- [d8](https://github.com/Vectorted/Vector.js/tree/master/sdk-tools)
+- [ECJ](https://mvnrepository.com/artifact/org.eclipse.jdt/ecj/3.26.0)
