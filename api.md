@@ -8,7 +8,7 @@ Module @vector-api
 import { $java } from '@vector-api';
 ```
 Interface
-```ts
+```js
 class Java {
     /**
      * @constructor
@@ -16,7 +16,7 @@ class Java {
      *
      */
     constructor() {
-        
+
     }
 
     /**
@@ -26,7 +26,7 @@ class Java {
      *
      */
     async javac(project, libs) {
-        
+
     }
 
     /**
@@ -36,6 +36,17 @@ class Java {
      *
      */
     async JavaAdapter(javaClass, proxyClass) {
+
+    }
+
+    /**
+     * @promise Promise<void>
+     *
+     * Perceiving asynchronous operations in the Java API.
+     * Before resolve/reject is executed, the Node.js event loop will continue to keep running.
+     *
+     */
+    promise(resolve) {
         
     }
 
@@ -46,7 +57,7 @@ class Java {
      *
      */
     keepRunning() {
-        
+
     }
 
     /**
@@ -56,7 +67,7 @@ class Java {
      *
      */
     stopRunning() {
-        
+
     }
 
     /**
@@ -76,7 +87,7 @@ class Java {
      *
      */
     getMethods(classes) {
-        
+
     }
 
     /**
@@ -86,7 +97,7 @@ class Java {
      *
      */
     getFields(classes) {
-        
+
     }
 
     /**
@@ -95,7 +106,7 @@ class Java {
      * @returns {Class | Null} - The class found by the class loader.
      */
     findClassOrNull(className) {
-        
+
     }
 
     /**
@@ -104,7 +115,7 @@ class Java {
      * @returns {Class} - The class found by the class loader.
      */
     findClass(className) {
-        
+
     }
 
     /**
@@ -113,7 +124,7 @@ class Java {
      * @returns {Promise<boolean>} - A promise that resolves to true when loading is complete.
      */
     async loadDex(dex) {
-        
+
     }
 
     /**
@@ -122,7 +133,7 @@ class Java {
      * @returns {Promise<boolean>} - A promise that resolves to true when loading is complete.
      */
     async loadJar(jar) {
-        
+
     }
 }
 ```
