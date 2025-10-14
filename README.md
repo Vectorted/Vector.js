@@ -179,7 +179,7 @@ const file: Function = new ExtendFile('./Class.ts');
 void file.invoke()
 ```
 
-### 使用Android AccessibilityService(无障碍服务编写自动化脚本)
+### 访问Android AccessibilityService(无障碍服务编写自动化脚本)
 继承AccessibilityService服务类, 重写原生方法
 ```js
 import AccessibilityService, {
