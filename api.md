@@ -70,7 +70,7 @@ export class AndroidClassLoader {
      * Stop the event loop, UI thread mode needs to be set manually.
      *
      */
-    stopRunning() {
+    stopRunning(id) {
 
     }
 
