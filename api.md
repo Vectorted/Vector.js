@@ -150,7 +150,7 @@ CommonJS
 ```
 const { AccessibilityService, GestureDescription, StrokeDescription, Point } = require('AccessibilityService');
 ```
-# Clasees
+# Classes
 ```js
 export default class AccessibilityService {
 
